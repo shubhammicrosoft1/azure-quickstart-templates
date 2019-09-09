@@ -10,6 +10,26 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+steps:
+
+- task: AzureResourceGroupDeployment@2
+
+  displayName: 'Azure Deployment:Create Or Update Resource Group action on azure-dev'
+
+  inputs:
+
+    azureSubscription: armsp11
+
+    resourceGroupName: 'azure-dev'
+
+    location: 'West US'
+
+    templateLocation: 'URL of the file'
+
+    csmFileLink: 'https://github.com/shubhammicrosoft1/azure-quickstart-templates/blob/master/docker-simple-on-ubuntu/azuredeploy.json'
+
+    csmParametersFileLink: 'https://github.com/shubhammicrosoft1/azure-quickstart-templates/blob/master/docker-simple-on-ubuntu/azuredeploy.parameters.json'
+
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
