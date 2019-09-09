@@ -1,4 +1,14 @@
 # Starter pipeline
+- task: AzureResourceGroupDeployment@2
+  inputs:
+    azureSubscription: 'armsp22'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'azure-prod'
+    location: 'West Europe'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/shubhammicrosoft1/azure-quickstart-templates/blob/master/docker-simple-on-ubuntu/azuredeploy.json'
+    csmParametersFileLink: 'https://github.com/shubhammicrosoft1/azure-quickstart-templates/blob/master/docker-simple-on-ubuntu/azuredeploy.parameters.json'
+    deploymentMode: 'Complete'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
