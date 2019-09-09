@@ -25,9 +25,9 @@ steps:
 
     templateLocation: 'URL of the file'
 
-    csmFileLink: 'https://github.com/shubhammicrosoft1/azure-quickstart-templates/blob/master/docker-simple-on-ubuntu/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/shubhammicrosoft1/azure-quickstart-templates/master/docker-simple-on-ubuntu/azuredeploy.json'
 
-    csmParametersFileLink: 'https://github.com/shubhammicrosoft1/azure-quickstart-templates/blob/master/docker-simple-on-ubuntu/azuredeploy.parameters.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/shubhammicrosoft1/azure-quickstart-templates/master/docker-simple-on-ubuntu/azuredeploy.parameters.json'
 
 
 - script: |
