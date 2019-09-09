@@ -6,7 +6,7 @@
       "value": "GEN-UNIQUE"
     },
     "adminPasswordOrKey": {
-      "value": "GEN-SSH-PUB-KEY"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDFj0cwLAhVoKn05vJCSj644VJUe42gqAmtUHAXaPj2iqaxtHH2b83PGvNvQLJEUXLTlfCduyTUeAgRYLiu3GM3dbDGfpNtj1TsaoR8X1/LZL0ysjGhXeAsrLLEBvZV1/KLejYQLhra/vexSJ37nW2gbzfDhyTCtcY8AO8RprKE4w=="
     }
   }
 }
