@@ -1,6 +1,6 @@
 # Starter pipeline
 trigger:
-- task: AzureResourceGroupDeployment@2
+- task: 'AzureResourceGroupDeployment@2'
   inputs:
     azureSubscription: 'armsp11'
     action: 'Create Or Update Resource Group'
